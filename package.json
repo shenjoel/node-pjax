@@ -1,0 +1,14 @@
+{
+  "name": "express-pjax-demo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "3.0.2",
+    "express-partials": "0.0.6",
+    "express-pjax": ">= 0.0.1",
+    "freemarker.js": "^1.2.2",
+    "jade": ">= 0.0.1",
+    "path": "^0.12.7"
+  }
+}

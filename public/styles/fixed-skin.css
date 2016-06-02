@@ -1,0 +1,28 @@
+/* 
+
+Discover - CSS File
+
+USE THIS STYLE SHEET FOR FIXED STYLE
+
+*/
+body{background:#efefef;}
+#bodychild{
+	width:1020px; 
+	background:#ffffff;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 0px 6px #d0cfcf;
+	-moz-box-shadow: 0px 0px 6px #d0cfcf;
+	box-shadow: 0px 0px 6px #d0cfcf;
+}
+
+#outermain.homepage{padding:42px 0 60px 0;}
+#carouselslider{ position:relative; bottom:0; z-index:11; width:100% !important;}
+.flex-caption{width:28%; left:4%; bottom:28px;}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#outermain.homepage{padding:80px 0 60px 0;}
+#carouselslider{ position:absolute; bottom:-54px; z-index:11; width:748px;}	
+.flex-caption{width:17%; position: absolute; left:0; bottom:75px; background:url(../images/opacity.png) repeat; padding:20px}
+}

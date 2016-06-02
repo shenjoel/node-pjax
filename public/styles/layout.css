@@ -1,0 +1,179 @@
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 959px) {
+	#topnav{display:block !important;}
+	.flex-direction-nav .flex-next {right: -40px; *right:0;}
+	.flex-direction-nav .flex-prev {left: -40px; *left: 0;}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#bodychild{width:100%;}
+	
+	/*============================================== MENU SECTION ==============================================*/
+	#topnav{display:block !important;}
+	
+	
+	/*============================================== SLIDER SECTION ==============================================*/
+	#carouselslider{width:768px;}
+	.flex-caption{left:10%;}
+	.flexslider:hover .flex-next {opacity:1; right:0px; margin-right:0 !important;}
+	.flexslider:hover .flex-prev {opacity:1; left:0px;}
+	
+	/*============================================== AFTER HEADER SECTION ==============================================*/
+	.pagetitle-container{margin:0 0 0 0}
+	#headerimg img{max-width:100%;}
+	
+	
+	/*============================================== CONTENT SECTION ==============================================*/
+	.padcontent{padding-right:12.8%;}
+	#content.positionright .padcontent{padding-left:12.8%; padding-right:0}
+	
+	.circle.large{
+		width:170px;
+		height:170px;
+		-moz-border-radius:85px;
+		-webkit-border-radius:85px;
+		-khtml-border-radius:85px;
+		border-radius:85px;
+	}
+	
+	.circle-content h5{font-size:12px; margin-bottom:10px}
+	.circle-content p{margin:10px;}
+	.circle-content{padding:25px 20px; font-size:11px;}
+	
+	/*============================================== PORTFOLIO SECTION ==============================================*/
+	/* Portfolio 4 Column */
+	.ts-display-pf-col-4 li{width:172px;}
+	.ts-display-pf-col-4 .ts-display-pf-img{
+		width:160px;
+	}
+	
+	.ts-display-pf-col-4 .ts-display-pf-img a.image{
+		width:160px;
+	}
+	
+	.ts-display-pf-col-4  .ts-display-pf-img a .rollover{
+		width:160px;
+	}
+	
+	
+	/*============================================== SIDEBAR SECTION ==============================================*/
+	.rp-widget li .smalldate{background:transparent; padding:0}
+	
+	
+	#style-switcher{display:none;}
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	#bodychild{width:100%;}
+	#outerheader{height:auto;}
+	
+	/*============================================== HEADER SECTION ==============================================*/
+	#logo{text-align:center;}
+	#logo img{margin:0 auto; max-width:100%;}
+	#headerright{padding:0; text-align:center;}
+	#navigation{text-align:center; clear:both; height:auto;}
+	.sf-menu a{background:transparent !important; border:0 !important}
+	.sf-menu > li{border:0 !important; display:none;}
+	nav{margin:0 0 20px 0; float:none; }
+	.js .tinynav { display: block; display: inline-block; text-align:left ; margin:0 0 0 0; border:0; width:100%}/* mobile dropdown */
+    .js #topnav { display: none }
+		
+	/*============================================== SLIDER SECTION ==============================================*/
+	#thumbslider, .flex-caption{display:none}
+	
+	/*============================================== AFTER HEADER SECTION ==============================================*/
+	#outerafterheader{padding:0 0 0 0; height:100px; overflow:hidden}
+	.pagetitle-container{padding:15px 20px; margin:0; width:50%;}
+	.pagetitle-container .pagetitle{margin:0; font-size:20px}
+	.pagetitle-container .pagedesc{font-size:11px; line-height:18px;}
+	#headerimg img{max-width:100%;}
+	
+	/*============================================== CONTENT SECTION ==============================================*/
+	#outermain.homepage{padding:20px 0 60px 0;}
+	#content.positionright, #content.positionleft{background:transparent;}
+	.padcontent{padding-right:0;}
+	#content.positionright .padcontent{padding-left:0; padding-right:0}
+	img.alignright, .alignright{float:none; margin:0 0 0 0 !important;}
+	.highlight-content{clear:both; padding:0px 0 40px 0;}
+	.padsmallright{padding:0;}
+	.padsmallleft{padding:0;}
+	.linever{display:none;}
+	
+	
+		
+	/*============================================== BLOG SECTION ==============================================*/
+	.post{padding-bottom:30px; margin-bottom:30px;}
+	.posttitle{margin-bottom:5px;}
+	.wp-pagenavi{margin-bottom:30px;}
+	
+	/*============================================== SIDEBAR SECTION ==============================================*/
+	#sidebar .widget-container{margin-bottom:20px; padding:20px 0 0 0;}
+	
+	
+	/*============================================== PORTFOLIO SECTION ==============================================*/
+	/* Portfolio 4 Column */
+	.ts-display-pf-col-4 li{width:300px;}
+	.ts-display-pf-col-4 .ts-display-pf-img{
+		width:288px;
+	}
+	
+	.ts-display-pf-col-4 .ts-display-pf-img a.image{
+		width:288px;
+	}
+	
+	.ts-display-pf-col-4  .ts-display-pf-img a .rollover{
+		width:288px;
+	}
+	
+	
+	#toTop{display:none !important;}
+	
+	#style-switcher{display:none;}
+	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#bodychild{width:100%;}
+	
+	
+	/*============================================== SLIDER SECTION ==============================================*/
+	
+	
+	/*============================================== PORTFOLIO SECTION ==============================================*/
+	/* Portfolio 4 Column */
+	.ts-display-pf-col-4 li{width:420px;}
+	.ts-display-pf-col-4 .ts-display-pf-img{
+		width:408px;
+	}
+	
+	.ts-display-pf-col-4 .ts-display-pf-img a.image{
+		width:408px;
+	}
+	
+	.ts-display-pf-col-4  .ts-display-pf-img a .rollover{
+		width:408px;
+	}
+	
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#bodychild{width:100%;}
+	
+	/*============================================== SLIDER SECTION ==============================================*/
+
+	
+	/*============================================== BLOG SECTION ==============================================*/
+	.commentlist ol{padding-left:20px;}
+	.avatar{display:none;}
+	.comment-body{margin:0;}
+
+}

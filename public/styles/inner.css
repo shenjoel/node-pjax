@@ -1,0 +1,174 @@
+/* 
+
+Discover - CSS File
+
+USE THIS STYLE SHEET FOR INNER PAGE
+
+*/
+
+
+
+/* Page Navi*/
+.pagenav {padding:0; font-size:12px; margin:0 0 0 0; clear:both; text-align:right; font-style:italic}
+.pagenav .prevpost{float:left;}
+
+
+
+/* BLOG */
+.post{margin-bottom:50px; padding:0 0 50px 0; clear:both;}
+.post.singlepage{padding-bottom:20px;}
+.postimg{
+	margin:0 0 20px 0;
+	padding:5px;
+}
+.postimg img{display:block;}
+.posttitle{margin:0 0 2px 0}
+.posttitle, .posttitle a{font-size:16px; font-weight:400; line-height:24px; text-transform:uppercase}
+.posttitle a:hover{text-decoration:none;}
+.entry-utility{padding:0 0 15px 0; margin-bottom:20px; font-size:11px; background:url(../images/heading_bg.png) no-repeat left bottom}
+.entry-content{padding:0 0 0 0;}
+.more-link{font-style:italic;}
+
+#comment h4{ font-size:11px;}
+.commentlist{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.commentlist ol{
+	list-style-type:none;
+	padding:30px 0 0 90px;
+	margin:0;
+}
+
+.commentlist li{
+	position:relative;
+	padding:0 0 30px 0;
+	margin-bottom:30px;
+}
+.commentlist li li{
+	position:relative;
+	padding:0;
+}
+
+.avatar-img{
+	position:absolute;
+	top:4px;
+	left:0;
+}
+.avatar{display:block}
+.fn{font-size:12px; font-style:normal;}
+.tdate{padding-left:20px;}
+.tdate, .reply{ font-size:10px;}
+.reply a, .reply a:visited{}
+.reply a:hover{text-decoration:underline;}
+.fn a, .fn a:visited{}
+
+.comment-body{margin:0 0 0 90px; }
+.comment-body p{ margin-bottom:5px; margin-top:10px;}
+.comment-body .more{ padding:0px 0px;}
+#commentform {margin-bottom:20px}
+#commentform label{display:block}
+#commentform .text-input{
+	margin-bottom:8px;
+	padding:8px 5px;
+	vertical-align:middle;
+}
+#commentform .textarea{
+	margin-bottom:20px;
+	padding:8px 5px;
+	vertical-align:top;
+}
+
+.addthis_toolbox{padding:20px 0 0 0;}
+
+/* PORTFOLIO */
+#ts-display-portfolio{float:left;}
+.ts-display-pf-img{
+	position:relative;
+	padding:5px;
+}
+.ts-display-pf-img img{display:block;}
+.ts-display-clear{clear:both; height:1px !important; line-height:1px !important; float:none!important}
+
+.ts-display-pf-text h2{margin-bottom:10px; padding:0 0 6px 0; font-size:14px; line-height:20px; font-family: 'Open Sans', sans-serif, arial;}
+
+.ts-display-pf-img a .rollover{
+	background:url(../images/hover-zoom.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#000;
+	display:block;
+    position:absolute!important;
+	z-index:10;
+	display:none;
+	cursor:pointer;
+}
+.ts-display-pf-img a .rollover.gotolink{
+	background:url(../images/hover-link.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.ts-display-pf-img a .rollover.gotopost{
+	background:url(../images/hover-doc.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/*======= Portfolio 4 Column =======*/
+.ts-display-pf-col-4{list-style-type:none; padding:0; margin:0;}
+.ts-display-pf-col-4 li{list-style-type:none; padding:0; margin:0 20px 15px 0; width:220px;  float:left;}
+.ts-display-pf-col-4 li.nomargin{margin-right:0;}
+.ts-display-pf-col-4 h2{}
+
+.ts-display-pf-col-4 .ts-display-pf-img{
+	width:208px;
+	height:100%;
+}
+
+.ts-display-pf-col-4 .ts-display-pf-img a.image{
+	width:208px;
+	height:100%;
+	display:block;
+	position:relative;
+
+}
+
+.ts-display-pf-col-4  .ts-display-pf-img a .rollover{
+	width:208px;
+	height:100%;
+	cursor:pointer;
+}
+
+.ts-display-pf-col-4 .ts-display-pf-text{
+	margin-top:14px;
+}
+
+
+
+
+
+/* CONTACT */
+form{margin:0; padding:0;}
+fieldset{border:0px;}
+#contactform{margin:0; position:relative; }
+#contactform label{padding:0 0 0 20px; margin:0 0 0 0; line-height:35px; vertical-align:top;}
+span.required{ color:#888;}
+span.error{color:red;text-align:left; font-size:11px; padding-bottom:15px; display:block;}
+#contactform input.text-input{
+	margin-bottom:10px;
+	vertical-align:middle;
+	width:50%;
+	font-style:italic;
+	padding:10px
+}
+#contactform textarea{ width:95%; float:left; font-style:italic; padding:10px} 
+#message{ margin-left:0px; font-weight:bold; color:#ff0000}
+#message h2	{}
+#message p{margin:6px 0px; }
+.note{ color:#d45454;}
+#contactform .button{
+	cursor:pointer;
+	margin-top:20px;
+	clear:both;
+ }

@@ -1,0 +1,196 @@
+/* 
+
+Discover - CSS File
+
+CHANGE COLOR STYLE
+
+*/
+
+body {color:#666;}
+#bodychild {
+	border-top: 5px solid #000;
+}
+#outerheader{background:#fff url(../images/bg_top.gif) repeat-x; border-top:solid 1px #fff}
+#outerslider{background:#fbfbfb url(../images/bg_outerslider.png) repeat; border-bottom:solid 1px #e8e8e8}
+
+
+/*============================================== GENERAL SECTION ==============================================*/
+/* Link color */
+a, a:visited, .colortext, .colortext a, .colortext a:visited{color:#000}
+a:hover, a.colortext:hover, .colortext a:hover{color:#ab0000;}
+
+
+/* Heading & text */
+h1, h2, h3, h4, h5, h6{color:#000;}
+
+/*============================================== HEADER AND MENU SECTION ==============================================*/
+#headerright .txttopright{color:#888;}
+#navigation{border-top:solid 1px #f7f7f7;}
+.sf-menu a, .sf-menu a:visited{color:#444444;}/* 1st level */
+.sf-menu a:hover, .sf-menu li.current > a{color:#949393;}/* 1st level */
+
+.sf-menu > li{border-right:solid 1px #f2f2f2;}
+
+/* dropdown */
+.sf-menu li li, .sf-menu li li:hover, .sf-menu li li.sfHover{background:#444; text-transform:capitalize}
+.sf-menu li li a, .sf-menu li li a:visited, .sf-menu li li a:hover, sf-menu li.current li a{color:#fff;}
+.sf-menu li li:hover{
+	background:#6c6c6c;
+	-moz-box-shadow: inset 0 1px 5px 0px #616161;
+	-webkit-box-shadow: inset 0 1px 5px 0px #616161;
+	box-shadow: inset 0 1px 5px 0px #616161;
+}
+.sf-menu ul{border-top:solid 2px #595959;}
+.sf-with-ul{}
+.sf-menu li li {border-bottom:solid 1px #888888;}
+.sf-menu li li:last-child{ border-bottom:0}
+
+.tinynav{background:#fbfbfb;}
+
+/*============================================== SLIDER SECTION ==============================================*/
+#outerslider{border-bottom:solid 1px #fff;}
+.flex-caption, .flex-caption h1{color:#fff}
+.flex-caption span{color:#bbb;}
+
+
+
+/*============================================== AFTER HEADER SECTION ==============================================*/
+#outerafterheader{border-bottom:solid 1px #fff;}
+.pagetitle-container{}
+.pagetitle, .pagedesc{color:#fff;}
+
+/*============================================== CONTENT SECTION ==============================================*/
+
+/* Form */
+input[type="text"],
+textarea, input[type="password"], select{
+	border:solid 1px #e0e0e0;
+	color:#888;
+}
+
+/* Horizontal Line */
+hr {
+	color:#efefef;
+	background-color:#efefef;
+}
+
+.separator.line{border-bottom:solid 1px #efefef;}
+.linever{background:#f2f2f2;}
+
+/* List */
+.ln h6 a, .ln h6 a:visited{color:#333;}
+
+/* Images */
+.imgborder{border-right: 1px solid #f2f2f2; border-left: 1px solid #f2f2f2; border-bottom: 2px solid #e7e7e7;}
+
+/* Button */
+.button, .button:visited, input[type="submit"]{
+	background: #000000;
+	color:#fff;
+}
+.button:hover, input[type="submit"]:hover{
+	background: #333; /* for non-css3 browsers */
+	color:#fff;
+}
+
+
+/* Dropcaps and Circle */	
+.dropcap1{text-shadow:1px 1px 0 #ededed; color:#000}
+.dropcap2, .circle{background:#000; color:#fff;}		
+.dropcap3{	background:#000; color:#fff;}
+.circle h5{color:#fff;}
+.circle:hover{background:#333;}
+
+/* Highlight */
+.highlight1{background:#000; color:#fff;}	
+.highlight2{background:#ebebeb;  border:solid 1px #f7f7f7}
+
+/* Code */
+code {
+	border-left:4px solid #eaeaea;
+}
+
+		
+/* Tabs */
+ul.tabs li {
+	background:#f8f8f8;
+	border:1px solid #eaeaea;
+	border-width:1px 1px 1px 0px;
+}
+ul.tabs li:first-child{border-left:solid 1px #eaeaea;}
+ul.tabs li a {color:#000;}
+ul.tabs li.active{background:#fff; border-bottom:solid 1px #fff}
+html ul.tabs li.active a{ color:#ab0000; }
+#tab-body{border:solid 1px #eaeaea;}
+
+/* jQuery Toggles */
+h2.trigger span {color:#000}
+h2.active span{color:#ab0000;}
+h2.trigger span:hover {color:#ab0000;} 
+
+/* Accordion */
+h2.accordion-title{background:#f4f4f4;}
+h2.accordion-title.active{background:#fafafa; border-bottom:solid 1px #fff}
+ul.ts-accordion li{border-bottom: 1px solid #fff;}
+div.accordion-content{background:#fafafa }
+
+
+/* Tables */
+th{border-bottom: 1px solid #f1f1f1;}
+table {border: 1px solid #f1f1f1;border-bottom:0;}
+tr td {border-bottom: 1px solid #f1f1f1;}
+tr.odd td {background: #F2F7FC;}
+
+
+/*============================================== BLOG SECTION ==============================================*/
+.post{border-bottom:solid 1px #efefef;}
+.postimg{border-right: 1px solid #f2f2f2; border-left: 1px solid #f2f2f2; border-bottom: 2px solid #e7e7e7;}
+.posttitle a, .posttitle a:visited{color:#333;}
+.posttitle a:hover{color:#ab0000;}
+.entry-utility{color:#888888;}
+.entry-utility a:hover{color:#ab0000;}
+.tdate, .reply a, .reply a:visited{color:#969696; }
+.commentlist li{border-bottom:solid 1px #f1f1f1}
+.commentlist li li{border:0;}
+
+.pagenav a, .pagenav a:visited{color:#ab0000;}
+.pagenav a:hover{text-decoration:underline;}
+
+/*============================================== PORTFOLIO SECTION ==============================================*/
+.ts-display-pf-img{
+	border-right: 1px solid #f2f2f2; border-left: 1px solid #f2f2f2; border-bottom: 2px solid #e7e7e7;
+}
+.ts-display-pf-text h2 a, .ts-display-pf-text h2 a:visited{color:#000;}
+.ts-display-pf-text h2 a:hover{color:#ab0000;}
+
+/*============================================== SIDEBAR SECTION ==============================================*/
+#sidebar li li:first-child{border-top:solid 1px #f6f6f6;}
+#sidebar li li{border-bottom:solid 1px #f6f6f6;}
+#sidebar li li a{color:#666;}
+#sidebar li li a:hover, #sidebar li li a.current{color:#ab0000;}
+
+#sidebar .smalldate a, #sidebar .smalldate a:visited{color:#dc3c00;}
+#sidebar .smalldate a:hover{text-decoration:underline;}
+#sidebar .rp-widget li h3 a{color:#000;}
+#sidebar .rp-widget li h3 a:hover{color:#ab0000;}
+#sidebar .rp-widget img{border:solid 1px #e7e7e7;}
+#sidebar .rp-widget .smalldate{color:#888;}
+
+
+
+/*============================================== FOOTER SIDEBAR SECTION ==============================================*/
+#outerfootersidebar{background:#f9f9f9 url(../images/footer_shadow.png) no-repeat top center; border-top:1px solid #f2f2f2; color:#666;}
+#footersidebar{}
+#footersidebar .widget-title{color:#000;}
+#footersidebar li a, #footersidebar li a:visited{color:#000}
+#footersidebar li a:hover{color:#ab0000;}
+.gallery-pic img{background:#fff; border:solid 1px #e7e7e7}
+
+
+/*============================================== FOOTER SECTION ==============================================*/
+#outerfooter{ background:#f9f9f9;}
+#footer{color:#666; border-top:solid 1px #e4e4e4}
+#footer a, #footer a:visited{color:#666;}
+#footer a:hover{color:#ab0000;}
+#toTop{color:#666}
+#toTop:hover{color:#ab0000;}

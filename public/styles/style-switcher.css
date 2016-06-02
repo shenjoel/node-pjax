@@ -1,0 +1,68 @@
+#style-switcher {  
+  position: absolute;  
+  width: 100px;  
+  top: 15px;  
+  left: 5px;  
+  color:#333333;
+  background: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:0 0 6px #000000;
+  -webkit-box-shadow:0 0 6px #000000;
+  z-index:9000;    
+} 	
+.color-box,
+.pattern-box,
+.bg-box {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:2px;
+	margin-left:2px;
+  margin-bottom: 5px;
+  border: 1px solid #cacaca;
+}
+#colorpicker, #colorpicker2, #colorpicker3, #colorpicker4, #colorpicker5, #colorpicker6, #colorpicker7, #colorpicker8, #colorpicker9, #colorpicker10, #colorpicker11, #colorpicker12, #colorpicker13 {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/colorpicker/select2.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-right:5px;
+}
+.pickertext{
+	font-size:10px;
+	font-weight:normal;
+}
+#colorpicker div, #colorpicker2 div, #colorpicker3 div, #colorpicker4 div {
+	width: 28px;
+	height: 28px;
+	background: url(../images/colorpicker/select2.png) center;
+}
+div.switchercontainer{
+	margin-bottom:10px;
+}
+div.switchercontainer span{
+	display:block;
+	margin-bottom:3px;
+	padding-left:2px;
+	color:#333333;
+}
+
+a#switcher-reset{
+	display:block;
+	width:64px;
+	height:24px;
+	background-image:url(../images/styleswitcher/butreset.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	font-size:0px;
+	color:#ffffff;
+}
+a#switcher-reset:hover{
+	background-position:0px -26px;
+}
