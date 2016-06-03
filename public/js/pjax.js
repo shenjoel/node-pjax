@@ -151,7 +151,7 @@ var pjax = function(options) {
 		if(!_this) {
 			return false;
 		}
-		href = _this.href;
+		href = _this.getAttribute('href');
 		// 过滤
 		if (typeof options.filter === 'function') {
 			if (options.filter.call(_this, href, _this) === true){
@@ -252,7 +252,6 @@ pjax.showFn = function(showType, container, data, fn, isCached) {
 	if (typeof showType === 'function') {
 		fx = showType;
 	} else {
-		console.log()
 		if (!(showType in pjax.showFx)) {
 			showType = "_default";
 		}
@@ -340,7 +339,9 @@ pjax.success = function(data, isCached) {
 	if (pjax.options.cache && !isCached) {
 		Util.setCache(pjax.options.url, data, title, pjax.options.storage);
 	}
-	pjax.options.complete();
+	if(!pjax.state.cache || !pjax.state.storage) {
+		pjax.options.complete();
+	}
 };
 // 发送请求
 pjax.request = function(options) {
@@ -379,10 +380,10 @@ pjax.request = function(options) {
 		options.complete();
 		return true;
 	}
-	if (pjax.xhr && pjax.xhr.readyState < 4) {
-		pjax.xhr.onreadystatechange = $.noop;
-		pjax.xhr.abort();
-	}
+	// if (pjax.xhr && pjax.xhr.readyState < 4) {
+	// 	pjax.xhr.onreadystatechange = $.noop;
+	// 	pjax.xhr.abort();
+	// }
 	// console.log(pjax.options);
 	pjax.xhr = ajax(pjax.options);
 };

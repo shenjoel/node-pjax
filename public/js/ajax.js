@@ -13,7 +13,6 @@
 
 function ajax(options) {
     options = options || {};
-    console.log(options);
     options.type = (options.type || "GET").toUpperCase();
     options.dataType = options.dataType || "json";
     var params = formatParams(options.data);
